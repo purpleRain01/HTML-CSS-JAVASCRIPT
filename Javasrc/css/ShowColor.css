@@ -1,0 +1,36 @@
+.lbl{
+    background-color:#5DA7DB;
+    padding:25px;
+    margin:8px;
+    font-size: 30px;
+    color:#fff;
+}
+div{
+    display:block;
+    margin-top: 150px;
+    margin-left :200px;
+}
+input{
+    width:80px;
+    height:70px;
+}
+button{
+    background-color:#413F42;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 5px;
+    border:none;
+    margin:10px;
+    width:140px;
+    height:50px;
+}
+.lblcolor{
+    display: inline-block;
+    width: 150px;
+    height:100px;
+    border: 1px solid black !important;
+   
+}
+.dvcolor{
+    margin-left:460px;
+}

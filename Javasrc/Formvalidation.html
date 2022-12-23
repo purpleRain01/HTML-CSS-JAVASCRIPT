@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sign Up</title>
+<link rel="stylesheet" href="css/FormValidation.css">
+<script src="js/formValidation.js"></script>
+</head>
+<body>
+    <form>
+        <div class="v1">
+                <div>
+                    <label>Email</label>
+                </div>
+                <div>
+                    <label>Password</label>
+                </div>
+                <div>
+                    <label>Confirm password</label>
+                </div>
+                <div>
+                    <label>First name</label>
+                </div>
+                <div>
+                    <label>Last name</label>
+                </div>
+                <div>
+                    <label>Date of birth</label>
+                </div>
+        
+             
+          
+        </div>  
+        <div class="v2">
+            <div>
+                <input type="text" id="email" style="width:550px;">
+            </div>
+            <div>
+                <input type="text" textmode="singleline" id="password" placeholder="minimum 8 characters required eg:Abc@123">
+            </div>
+            <div>
+                <input type="text" id="cpassword">
+            </div>
+            <div>
+                <input type="text" id="fname">
+            </div>
+            <div>
+                <input type="text" id="lname">
+            </div>
+            <div>
+                <input type="date" id="dob">
+            </div>
+        </div>
+
+        <div class="v3">
+            <button type="button" class="register" onclick="validate()">Register</button>
+            <button type="button" class="reset" onclick="Reset()">Reset</button>
+        </div> 
+        <div>
+            <label id="success"></label>
+        </div>
+
+        </div>
+       
+
+    </form>
+      
+
+</body>
+</html>

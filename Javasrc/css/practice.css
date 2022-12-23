@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-size:60px ;
+    color: white;
+    font-family: "Mona Sans","Mona Sans Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+h2{
+    color:#fff;
+    font-family: "Mona Sans","Mona Sans Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 40px;
+    padding-left: 40px;
+}
+body{
+    background-color: #222222;
+}
+.ctr1{
+    padding-left:6%;
+}
+.ctr2{
+    padding-top: 10px;
+padding-left: 6%;
+color:#fff;
+font-size:  1.8rem;
+font-family: "Mona Sans","Mona Sans Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+letter-spacing: 1px;
+}
+.srch{
+   
+  
+    height: 62px;
+    padding:0px;
+    width:400px;
+    display: inline-block;
+}
+.ctr3{
+    padding-top: 13px;
+    padding:30px;
+    color:#fff;
+    font-size:  1.1rem;
+    font-family: "Mona Sans","Mona Sans Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.srch-btn{
+    margin-top:10px;
+   
+    padding:5px;
+    height: 55px;
+    display: inline-block;
+    width:200px;
+    border: none;
+    background-color: #E50914;
+    font-size: 20px;
+    color: #fff;
+}
+.container{
+    background-image: linear-gradient(0deg,rgba(0,0,0,1.8) 0,transparent 69%,rgba(0,0,0,3.8)), url("/Javasrc/phs/logo.jpg");
+    width:100vw;
+    height: 92vh;
+}
+.container1{
+    margin-top: 8px;
+    padding: 70px 45px;
+    background-color: black;
+    display:block;
+    height:400px;
+
+}
+.inner{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+}
+
+.row1{
+   position: sticky;
+    background-color:transparent;
+        width:100%;
+        height:7vw;
+        padding-top: 20px;
+    display: inline-block;;
+}
+.c1{
+    display: inline-block;
+    width:20%;
+    height:7vw; 
+}
+.c2{
+    display: inline-block;
+    float: right;
+    width:20%;
+    height:7vw;
+    padding-top: 0px;
+}
+.sgn{
+    background-color: #E50914;
+    border:none;
+    color:#fff;
+    padding: 10px 17px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 10px;;
+}
+.drop{
+    background: rgba(0,0,0,.4);
+    border: 1px solid #fff;
+    color:#fff;
+    padding: 7px 12px;
+    font-size: 15px;
+    margin-right: 25px;
+    border-radius: 3px;
+}
+.logo{
+    width:60%;
+    height:60%;
+    padding-left: 30px;
+}
+.ctr{
+    z-index: 1;
+    
+   margin-right: 10%;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding:10px 10px 10px 60px ;
+}
+img{
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width:100%;
+    height:100%;
+}
+.phtodiv{
+    width:25%;
+    height:400px;
+    display:inline-block;
+}
+.searchcont{
+    background-color: #fff;
+    width:300px;
+    font-size: 25px;
+    padding: 30px;
+
+}

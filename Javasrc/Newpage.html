@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>bmicalc</title>
+        <link rel="stylesheet" href="css/new.css">
+        <script src="js/bmiCalculator.js"></script>
+    </head>
+
+
+    <body>
+        <div class="container">
+            <div class="first">
+                <label>BMI calculator</label>
+            </div>
+            <div class="second">
+                <table>
+                    <tr class="odd">
+                        <td class="lef"><label> Salutation</label></td>
+                        <td class=rig>
+                                <select name="list" id="ddl" class="drop" onclick="Gender()">
+                                  <option value="0">select</option>
+                                  <option value="1">Mr.</option>
+                                  <option value="2">Miss</option>
+                                  <option value="3">Mrs</option>
+                                  <option value="4">Prof</option>
+                                  <option value="5">Dr</option>
+                            </select><p id="dropdown"></p>
+                            <div  id="hide1" class="rad">
+                                <input type="radio" id="m" name="sex" value="1">
+                                <label for="m">Male</label>
+                                <input type="radio" id="f" name="sex" value="0">
+                                <label for="f">Female</label>
+                          </div>
+                        </td> 
+                    </tr>
+                    <tr class="even">
+                        <td class="lef"><label>Full Name</label></td>
+                        <td>
+                            <input type="text" id="fname"><p id="pfname"></p>
+                        </td> 
+                    </tr>
+                    <tr class="odd">
+                        <td class="lef"><label> Initial</label></td>
+                        <td>
+                            <input type="text"  id="lname" ><p id="plname"></p>
+                        </td>
+                    </tr>
+                    <tr class="even">
+                        <td class="lef"><label> Address</label></td>
+                        <td>
+                            <!-- <textarea  id="addr" cols="50" rows="8"></textarea> -->
+                            <input type="text" id="addr" ><p id="paddr"></p>
+                        </td>   
+                    </tr>
+                    <tr class="odd">
+                        <td class="lef"><label>Age</label></td>
+                        <td>
+                            <input type="number"  id="age"><p id="page"></p>
+                        </td>
+                    </tr>
+                    <tr clas="even">
+                        <td class="lef"><label>Height in Centimeter</label></td>
+                        <td>
+                            <input type="number"id="hgt" min="100" max="300"><p id="phgt"></p>
+                        </td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="lef"><label>Weight in KiloGram</label></td>
+                        <td>
+                           
+                <input type="number" id="wgt"  min="25" max="300"><p id="pwgt"></p>
+                        </td>
+                    </tr>
+                    <tr class="even">
+                        <td class="lef"><label>Body Mass Index</label></td>
+                        <td>
+                            <input type="text" id="bmi" readonly>
+                        </td>
+                    </tr>
+                    <tr class="odd">
+                        <td class="lef"><label>Description</label></td>
+                        <td>
+                            <input type="text" id="descr" readonly><br>
+                          
+                        </td>
+                    </tr>
+                </table>
+                <div class="btn">
+                    <button type="button" onclick="ValidateForm()">Calculate BMI</button>
+                </div>
+            </div>
+
+        </div>
+       
+
+    </body>
+</html>
